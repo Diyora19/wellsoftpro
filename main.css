@@ -1,0 +1,2344 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&display=swap");
+html body main .contacts .lastContact a, html body main .contacts .lastContact, html body main .contacts .lastMenu, html body main .contacts .contactNav .numbers, html body main .contacts .contactNav .hellowellsoft, html body main .contacts .contactNav .Екатеринбург, html body main .contacts .contactNav, html body main #carousell .carouselText button a, html body main #carousell, html body header .secondNav, html body header .firstNav .language, html body header .firstNav .contactNav .numbers, html body header .firstNav .contactNav .hellowellsoft, html body header .firstNav .contactNav .Екатеринбург, html body header .firstNav .contactNav, html body header .firstNav .logo, html body header .firstNav, html body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+html body main .reviews #block .kvadratButton, html body main .projects #block .kvadratButton, html body main .cardsPage .orangeBlock .kvadratButton, html body main .condition #block .kvadratButton {
+  color: red;
+  padding: 10px 20px;
+  margin-top: 45px;
+  font-size: 18px;
+  background-color: white;
+  border: 6px solid red;
+  transition: 0.3s;
+}
+html body main .reviews #block .kvadratButton:hover, html body main .projects #block .kvadratButton:hover, html body main .cardsPage .orangeBlock .kvadratButton:hover, html body main .condition #block .kvadratButton:hover {
+  background-color: pink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  flex-direction: column;
+  justify-content: center;
+}
+html body header .firstNav {
+  max-width: 1400px;
+  height: 80px;
+}
+@media (max-width: 1400px) and (min-width: 1300px) {
+  html body header .firstNav {
+    width: 1400px;
+  }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+  html body header .firstNav {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav {
+    width: 1000px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav {
+    width: 400px;
+  }
+}
+html body header .firstNav .logo {
+  height: 100%;
+}
+html body header .firstNav .logo img {
+  width: 203px;
+  height: 40px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .logo img {
+    width: 190px;
+    height: 35px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .logo img {
+    width: 180px;
+    height: 30px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .logo img {
+    width: 150px;
+    height: 25px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .logo img {
+    width: 140px;
+    height: 25px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .logo img {
+    width: 150px;
+    height: 25px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .logo img {
+    width: 140px;
+    height: 25px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .logo img {
+    width: 130px;
+    height: 25px;
+  }
+}
+html body header .firstNav .contactNav {
+  height: 100%;
+  width: 1000px;
+}
+html body header .firstNav .contactNav .Екатеринбург {
+  text-decoration: none;
+}
+html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+  font-size: 25px;
+  color: red;
+  margin-right: 8px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 18px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .Екатеринбург .fa-map-marker-alt {
+    font-size: 18px;
+  }
+}
+html body header .firstNav .contactNav .Екатеринбург h4 {
+  color: red;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    display: none;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    display: none;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .Екатеринбург h4 {
+    display: none;
+  }
+}
+html body header .firstNav .contactNav .hellowellsoft {
+  text-decoration: none;
+}
+html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+  font-size: 25px;
+  color: red;
+  margin-right: 8px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 18px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .hellowellsoft .fa-envelope {
+    font-size: 18px;
+  }
+}
+html body header .firstNav .contactNav .hellowellsoft h4 {
+  color: #ABABAB;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    display: none;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    display: none;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .hellowellsoft h4 {
+    display: none;
+  }
+}
+html body header .firstNav .contactNav .numbers {
+  text-decoration: none;
+}
+html body header .firstNav .contactNav .numbers .fa-phone {
+  font-size: 25px;
+  color: red;
+  margin-right: 8px;
+  font-weight: 100;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 18px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .numbers .fa-phone {
+    font-size: 18px;
+  }
+}
+html body header .firstNav .contactNav .numbers h4 {
+  color: #A5A5A5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    display: none;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    display: none;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .numbers h4 {
+    display: none;
+  }
+}
+html body header .firstNav .contactNav .call {
+  text-decoration: none;
+  height: 100%;
+}
+html body header .firstNav .contactNav .call button {
+  height: 100%;
+  border: none;
+  padding: 30px 40px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to right, red, #ce093a);
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .firstNav .contactNav .call button {
+    font-size: 16px;
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .firstNav .contactNav .call button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .contactNav .call button {
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .firstNav .contactNav .call button {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .contactNav .call button {
+    font-size: 16px;
+    padding: 8px 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .contactNav .call button {
+    font-size: 14px;
+    padding: 5px 8px;
+    height: 80%;
+  }
+}
+html body header .firstNav .contactNav .call button span {
+  color: #fff;
+  margin: 0;
+}
+html body header .firstNav .contactNav .call button:hover {
+  background: linear-gradient(to left, red, #ce093a);
+}
+html body header .firstNav .contactNav .call button:focus {
+  border: none;
+  outline: none;
+}
+html body header .firstNav .language {
+  height: 100%;
+}
+html body header .firstNav .language a {
+  padding: 5px;
+  text-decoration: none;
+  color: #A5A5A5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 1000;
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .firstNav .language a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .firstNav .language a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .firstNav .language a {
+    font-size: 14px;
+  }
+}
+html body header .firstNav .language a:focus {
+  color: #ee1040;
+}
+html body header .secondNav {
+  max-width: 1400px;
+  height: 62px;
+  background-color: #F7F7F7;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 1400px) and (min-width: 1300px) {
+  html body header .secondNav {
+    width: 1400px;
+  }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+  html body header .secondNav {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .secondNav {
+    width: 1000px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .secondNav {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .secondNav {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .secondNav {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .secondNav {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .secondNav {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .secondNav {
+    width: 400px;
+  }
+}
+html body header .secondNav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px 40px;
+  letter-spacing: 0.8px;
+  position: relative;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body header .secondNav a {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body header .secondNav a {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body header .secondNav a {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body header .secondNav a {
+    padding: 6px 17px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body header .secondNav a {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body header .secondNav a {
+    font-size: 14px;
+    padding: 4px 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body header .secondNav a {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+}
+html body header .secondNav a:hover {
+  color: red;
+  background-color: white;
+  box-shadow: 0 0 25px rgba(182, 178, 178, 0.603);
+}
+html body header .secondNav a:hover ul {
+  display: block;
+  background-color: white;
+  box-shadow: 2px 10px 20px rgba(207, 204, 204, 0.603), -2px 10px 20px rgba(207, 204, 204, 0.603);
+}
+html body header .secondNav a ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 20px 30px;
+  display: none;
+}
+html body header .secondNav a ul li {
+  padding: 5px 0;
+  color: black;
+}
+html body header .secondNav a ul li:hover {
+  color: red;
+}
+html body main {
+  max-width: 1400px;
+  height: 500px;
+}
+@media (max-width: 1400px) and (min-width: 1300px) {
+  html body main {
+    width: 1400px;
+  }
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+  html body main {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main {
+    width: 1000px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main {
+    width: 900px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main {
+    width: 400px;
+  }
+}
+html body main #carousell {
+  width: 100%;
+  height: 800px;
+  margin-top: 100px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main #carousell {
+    height: 450px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main #carousell {
+    height: 450px;
+    align-items: flex-start;
+    width: 700px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main #carousell {
+    height: 450px;
+    align-items: flex-start;
+    width: 600px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell {
+    align-items: flex-start;
+    width: 490px;
+    height: 210px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell {
+    align-items: flex-start;
+    width: 400px;
+    height: 210px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main #carousell .carouselText {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell .carouselText {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell .carouselText {
+    padding-left: 8px;
+    width: 120px;
+  }
+}
+html body main #carousell .carouselText h1 {
+  font-size: 50px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell .carouselText h1 {
+    font-size: 16px;
+  }
+}
+html body main #carousell .carouselText button {
+  background: linear-gradient(to right, red, #fd0f56);
+  padding: 25px 120px;
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  margin-top: 70px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main #carousell .carouselText button {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main #carousell .carouselText button {
+    margin-top: 70px;
+    padding: 20px 80px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell .carouselText button {
+    margin-top: 50px;
+    padding: 17px 72px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell .carouselText button {
+    margin-top: 45px;
+    padding: 14px 60px;
+    font-size: 12px;
+  }
+}
+html body main #carousell .carouselText button a {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  background: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell .carouselText button a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell .carouselText button a {
+    font-size: 12px;
+  }
+}
+html body main #carousell #demo {
+  width: 600px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main #carousell #demo {
+    width: 550px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main #carousell #demo {
+    width: 500px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main #carousell #demo {
+    width: 450px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main #carousell #demo {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell #demo {
+    width: 300px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell #demo {
+    width: 200px;
+  }
+}
+html body main #carousell #demo .carousel-inner {
+  width: 620px;
+  height: 480px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main #carousell #demo .carousel-inner {
+    width: 550px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main #carousell #demo .carousel-inner {
+    width: 500px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main #carousell #demo .carousel-inner {
+    width: 450px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main #carousell #demo .carousel-inner {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main #carousell #demo .carousel-inner {
+    width: 270px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main #carousell #demo .carousel-inner {
+    width: 200px;
+  }
+}
+html body main .smartPage {
+  width: 100%;
+}
+html body main .smartPage .smartTitle {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+html body main .smartPage .smartTitle h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartTitle h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartTitle h2 {
+    font-size: 25px;
+  }
+}
+html body main .smartPage .smartTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 35px;
+  left: calc(50%-39px);
+  width: 78px;
+  height: 10px;
+  background-color: #ECECEC;
+}
+html body main .smartPage .smartBlock1 {
+  width: 100%;
+  height: 372px;
+  background: linear-gradient(#f2fbf5 70%, #d0ebd5 30%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 {
+    height: 320px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 {
+    height: 280px;
+    padding: 30px 25px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock1 {
+    height: 250px;
+  }
+}
+html body main .smartPage .smartBlock1 .smartLogo {
+  width: 25%;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html body main .smartPage .smartBlock1 .smartLogo img {
+  height: 142px;
+  width: 247px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 135px;
+    width: 240px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 125px;
+    width: 230px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 125px;
+    width: 220px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 115px;
+    width: 200px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 105px;
+    width: 180px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 75px;
+    width: 130px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock1 .smartLogo img {
+    height: 70px;
+    width: 120px;
+  }
+}
+html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+  width: 100%;
+  height: 50px;
+  background-color: #2BA542;
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 2px 6px 2px grey;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 15px;
+    height: 40px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 14px;
+    height: 35px;
+    width: 130px;
+    margin-bottom: 90px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock1 .smartLogo .smartButton button {
+    font-size: 12px;
+    height: 30px;
+    width: 120px;
+    margin-bottom: 115px;
+  }
+}
+html body main .smartPage .smartBlock1 .smartText {
+  width: 45%;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock1 .smartText {
+    width: 42%;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock1 .smartText {
+    width: 38%;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock1 .smartText {
+    width: 35%;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock1 .smartText {
+    width: 32%;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 .smartText {
+    width: 30%;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 .smartText {
+    width: 30%;
+    margin-left: 60px;
+  }
+}
+html body main .smartPage .smartBlock1 .smartText h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock1 .smartText h2 {
+    font-size: 14px;
+  }
+}
+html body main .smartPage .smartBlock1 .smartText h2 span {
+  color: #2BA542;
+}
+html body main .smartPage .smartBlock1 .smartText p {
+  font-size: 24px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock1 .smartText p {
+    font-size: 12px;
+  }
+}
+html body main .smartPage .smartBlock1 .smartImg {
+  width: 30%;
+  height: 310px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock1 .smartImg {
+    width: 32%;
+    height: 290px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock1 .smartImg {
+    width: 30%;
+    height: 270px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock1 .smartImg {
+    width: 30%;
+    height: 220px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock1 .smartImg {
+    width: 30%;
+    height: 220px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock1 .smartImg {
+    display: none;
+  }
+}
+html body main .smartPage .smartBlock1 .smartImg img {
+  width: 100%;
+  height: 100%;
+}
+html body main .smartPage .smartBlock2 {
+  width: 100%;
+  height: 372px;
+  background: linear-gradient(#fff5ec 70%, #bda58f 30%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 50px;
+  margin-top: 60px;
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 {
+    height: 320px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 {
+    height: 280px;
+    padding: 30px 25px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 {
+    height: 250px;
+  }
+}
+html body main .smartPage .smartBlock2 .smartLogo {
+  width: 25%;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartLogo {
+    width: 25%;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartLogo {
+    width: 30%;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 .smartLogo {
+    width: 45%;
+  }
+}
+html body main .smartPage .smartBlock2 .smartLogo img {
+  width: 247px;
+  height: 142px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartLogo img {
+    width: 240px;
+    height: 138px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock2 .smartLogo img {
+    width: 220px;
+    height: 125px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock2 .smartLogo img {
+    width: 200px;
+    height: 115px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 .smartLogo img {
+    width: 180px;
+    height: 105px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartLogo img {
+    width: 130px;
+    height: 55px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 .smartLogo img {
+    width: 120px;
+    height: 70px;
+  }
+}
+html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+  width: 100%;
+  height: 50px;
+  background-color: #FE800B;
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 2px 6px 2px grey;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 14px;
+    height: 35px;
+    width: 150px;
+    margin-bottom: 90px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 .smartLogo .smartButton button {
+    font-size: 12px;
+    height: 30px;
+    width: 120px;
+    margin-bottom: 115px;
+  }
+}
+html body main .smartPage .smartBlock2 .smartText {
+  width: 45%;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock2 .smartText {
+    width: 42%;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartText {
+    width: 40%;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock2 .smartText {
+    width: 38%;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 .smartText {
+    width: 36%;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartText {
+    width: 34%;
+  }
+}
+html body main .smartPage .smartBlock2 .smartText h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 .smartText h2 {
+    font-size: 14px;
+  }
+}
+html body main .smartPage .smartBlock2 .smartText h2 span {
+  color: #FE800B;
+}
+html body main .smartPage .smartBlock2 .smartText p {
+  font-size: 24px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 .smartText p {
+    font-size: 12px;
+  }
+}
+html body main .smartPage .smartBlock2 .smartImg {
+  width: 30%;
+  height: 310px;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .smartPage .smartBlock2 .smartImg {
+    width: 32%;
+    height: 290px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .smartPage .smartBlock2 .smartImg {
+    width: 31%;
+    height: 260px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .smartPage .smartBlock2 .smartImg {
+    width: 30%;
+    height: 220px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .smartPage .smartBlock2 .smartImg {
+    width: 30%;
+    height: 220px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .smartPage .smartBlock2 .smartImg {
+    display: none;
+  }
+}
+html body main .smartPage .smartBlock2 .smartImg img {
+  width: 100%;
+  height: 100%;
+}
+html body main .condition {
+  width: 100%;
+  padding-bottom: 60px;
+}
+html body main .condition #block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+html body main .condition #block h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 50px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .condition #block h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .condition #block h2 {
+    font-size: 25px;
+  }
+}
+html body main .condition #block::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: calc(50%-39px);
+  width: 78px;
+  height: 10px;
+  background-color: #ECECEC;
+}
+html body main .condition #block .wrapper {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+html body main .condition #block .wrapper .wrap:hover .img .div {
+  opacity: 1;
+}
+html body main .condition #block .wrapper .wrap:hover a {
+  color: red;
+}
+html body main .condition #block .wrapper .wrap a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 15px 32px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+html body main .condition #block .wrapper .wrap .img {
+  position: relative;
+}
+html body main .condition #block .wrapper .wrap .img img {
+  width: 554px;
+  height: 304px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .condition #block .wrapper .wrap .img img {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .condition #block .wrapper .wrap .img img {
+    width: 400px;
+  }
+}
+html body main .condition #block .wrapper .wrap .img .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 554px;
+  height: 304px;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 30px;
+  transition: 0.5s;
+  opacity: 0;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .condition #block .wrapper .wrap .img .div {
+    padding: 40px;
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .condition #block .wrapper .wrap .img .div {
+    width: 400px;
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+html body main .cardsPage .orangeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+html body main .cardsPage .orangeBlock::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: calc(50%-39px);
+  width: 78px;
+  height: 10px;
+  background-color: #ECECEC;
+}
+html body main .cardsPage .orangeBlock h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 35px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .cardsPage .orangeBlock h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .cardsPage .orangeBlock h2 {
+    font-size: 25px;
+  }
+}
+html body main .cardsPage .orangeBlock .links {
+  width: 80%;
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 20px;
+  line-height: 1;
+}
+html body main .cardsPage .orangeBlock .links .owl-dot {
+  color: rgba(44, 41, 41, 0.568);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0px 5px;
+  transition: 0.3s;
+}
+html body main .cardsPage .orangeBlock .links .owl-dot:hover {
+  color: red;
+}
+html body main .cardsPage .orangeBlock .owl-carousel.owl-drag .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+  html body main .cardsPage .orangeBlock .owl-carousel.owl-drag .owl-item {
+    width: 400px;
+  }
+}
+html body main .cardsPage .orangeBlock .owl-theme .owl-nav {
+  width: 300px;
+  height: 115px;
+  margin: 0;
+}
+html body main .cardsPage .orangeBlock .owl-theme .owl-nav button.owl-next, html body main .cardsPage .orangeBlock .owl-theme .owl-nav button.owl-prev {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  background-color: transparent;
+}
+html body main .cardsPage .orangeBlock .owl-theme .owl-nav span {
+  font-size: 70px;
+  color: #f11c1c;
+}
+html body main .cardsPage .orangeBlock .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+html body main .cardsPage .orangeBlock .cards .item {
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body main .cardsPage .orangeBlock .cards .card {
+  height: 600px;
+  border: none;
+  margin: 0 !important;
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .cardsPage .orangeBlock .cards .card {
+    height: 500px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .cardsPage .orangeBlock .cards .card {
+    height: 400px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .cardsPage .orangeBlock .cards .card {
+    height: 350px;
+  }
+}
+html body main .cardsPage .orangeBlock .cards .card img {
+  width: 80%;
+  height: 248px;
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .cardsPage .orangeBlock .cards .card img {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .cardsPage .orangeBlock .cards .card img {
+    height: 180px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .cardsPage .orangeBlock .cards .card img {
+    height: 180px;
+  }
+}
+html body main .cardsPage .orangeBlock .cards .card .card-body .card-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .cardsPage .orangeBlock .cards .card .card-body .card-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .cardsPage .orangeBlock .cards .card .card-body .card-title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .cardsPage .orangeBlock .cards .card .card-body .card-title {
+    font-size: 16px;
+  }
+}
+html body main .cardsPage .orangeBlock .cards .card .card-body .card-text {
+  font-size: 18px;
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .cardsPage .orangeBlock .cards .card .card-body .card-text {
+    font-size: 14px;
+    height: 150px;
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .cardsPage .orangeBlock .cards .card .card-body .card-text {
+    font-size: 14px;
+    height: 150px;
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .cardsPage .orangeBlock .cards .card .card-body .card-text {
+    font-size: 14px;
+    height: 170px;
+    overflow-y: hidden;
+  }
+}
+html body main .projects {
+  width: 100%;
+  padding-bottom: 60px;
+  background-color: #ECECEC;
+  margin-top: 30px;
+}
+html body main .projects #block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+html body main .projects #block h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 46px 0 60px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .projects #block h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .projects #block h2 {
+    font-size: 25px;
+  }
+}
+html body main .projects #block::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: calc(50%-39px);
+  width: 78px;
+  height: 10px;
+  background-color: white;
+}
+html body main .projects #block .wrapper {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+html body main .projects #block .wrapper .wrap {
+  position: relative;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .projects #block .wrapper .wrap {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .projects #block .wrapper .wrap {
+    width: 400px;
+  }
+}
+html body main .projects #block .wrapper .wrap:hover .img .div {
+  opacity: 1;
+}
+html body main .projects #block .wrapper .wrap:hover a {
+  color: red;
+}
+html body main .projects #block .wrapper .wrap .lola {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 15px 140px 25px 32px;
+  object-fit: cover;
+  transition: 0.5s;
+  width: 554px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .projects #block .wrapper .wrap .lola {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .projects #block .wrapper .wrap .lola {
+    width: 400px;
+  }
+}
+html body main .projects #block .wrapper .wrap .system {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 145px;
+  height: 50px;
+  padding: 5px 10px;
+  background-color: #ccc8c8;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+html body main .projects #block .wrapper .wrap .system:hover {
+  background-color: #f8a8b5;
+}
+html body main .projects #block .wrapper .wrap .system a {
+  color: white;
+  font-size: 16px;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.2;
+}
+html body main .projects #block .wrapper .wrap .img {
+  position: relative;
+}
+html body main .projects #block .wrapper .wrap .img img {
+  width: 554px;
+  height: 404px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .projects #block .wrapper .wrap .img img {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .projects #block .wrapper .wrap .img img {
+    width: 400px;
+  }
+}
+html body main .projects #block .wrapper .wrap .img .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 554px;
+  height: 404px;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 30px;
+  transition: 0.5s;
+  opacity: 0;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .projects #block .wrapper .wrap .img .div {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .projects #block .wrapper .wrap .img .div {
+    width: 400px;
+    font-size: 16px;
+  }
+}
+html body main .reviews {
+  width: 100%;
+  padding-bottom: 60px;
+  background-color: #ECECEC;
+}
+html body main .reviews #block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+html body main .reviews #block h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 50px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .reviews #block h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .reviews #block h2 {
+    font-size: 25px;
+  }
+}
+html body main .reviews #block::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: calc(50%-39px);
+  width: 78px;
+  height: 10px;
+  background-color: white;
+}
+html body main .reviews #block .wrapper {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+html body main .reviews #block .wrapper .wrap:hover .img .div {
+  opacity: 1;
+}
+html body main .reviews #block .wrapper .wrap a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 15px 32px;
+  object-fit: cover;
+  transition: 0.5s;
+  width: 500px;
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .reviews #block .wrapper .wrap a {
+    width: 400px;
+  }
+}
+html body main .reviews #block .wrapper .wrap a span {
+  font-size: 16px;
+  font-weight: 200;
+}
+html body main .reviews #block .wrapper .wrap .img {
+  position: relative;
+}
+html body main .reviews #block .wrapper .wrap .img img {
+  width: 500px;
+  height: 350px;
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .reviews #block .wrapper .wrap .img img {
+    width: 400px;
+  }
+}
+html body main .reviews #block .wrapper .wrap .img .div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 30px;
+  transition: 0.5s;
+  opacity: 0;
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .reviews #block .wrapper .wrap .img .div {
+    width: 400px;
+    font-size: 16px;
+  }
+}
+html body main .pictures {
+  width: 100%;
+  background-color: #ECECEC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+html body main .pictures h2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 50px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .pictures h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .pictures h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .pictures h2 {
+    font-size: 25px;
+  }
+}
+html body main .pictures::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: calc(50%-39px);
+  width: 78px;
+  height: 10px;
+  background-color: white;
+}
+html body main .pictures .clients_grid_cover {
+  width: 100%;
+  padding: 0 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .pictures .clients_grid_cover {
+    padding: 0 45px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .pictures .clients_grid_cover {
+    padding: 0 25px;
+  }
+}
+html body main .pictures .clients_grid_cover .item {
+  display: flex;
+  margin: 0 15px 20px;
+  filter: grayscale(100%);
+}
+html body main .contacts {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 50px;
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .contacts {
+    height: 560px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .contacts {
+    height: 700px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .contacts {
+    height: 800px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts {
+    height: 500px;
+  }
+}
+html body main .contacts .logoo {
+  margin-bottom: 40px;
+}
+html body main .contacts .logoo img {
+  width: 200px;
+  height: 40px;
+}
+html body main .contacts .contactNav {
+  width: 100%;
+  margin: 5px 0 40px;
+}
+html body main .contacts .contactNav .Екатеринбург {
+  text-decoration: none;
+}
+html body main .contacts .contactNav .Екатеринбург .fa-map-marker-alt {
+  font-size: 25px;
+  color: red;
+  margin-right: 8px;
+  font-weight: 100;
+}
+html body main .contacts .contactNav .Екатеринбург h4 {
+  color: #A5A5A5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .contacts .contactNav .Екатеринбург h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .contacts .contactNav .Екатеринбург h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .contacts .contactNav .Екатеринбург h4 {
+    display: none;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .contacts .contactNav .Екатеринбург h4 {
+    display: none;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .contactNav .Екатеринбург h4 {
+    display: none;
+  }
+}
+html body main .contacts .contactNav .hellowellsoft {
+  text-decoration: none;
+}
+html body main .contacts .contactNav .hellowellsoft .fa-envelope {
+  font-size: 25px;
+  color: red;
+  margin-right: 8px;
+  font-weight: 100;
+}
+html body main .contacts .contactNav .hellowellsoft h4 {
+  color: #A5A5A5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .contacts .contactNav .hellowellsoft h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .contacts .contactNav .hellowellsoft h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .contacts .contactNav .hellowellsoft h4 {
+    display: none;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .contacts .contactNav .hellowellsoft h4 {
+    display: none;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .contactNav .hellowellsoft h4 {
+    display: none;
+  }
+}
+html body main .contacts .contactNav .numbers {
+  text-decoration: none;
+}
+html body main .contacts .contactNav .numbers .fa-phone {
+  font-size: 25px;
+  color: red;
+  margin-right: 8px;
+  font-weight: 100;
+}
+html body main .contacts .contactNav .numbers h4 {
+  color: red;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  html body main .contacts .contactNav .numbers h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .contacts .contactNav .numbers h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .contacts .contactNav .numbers h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .contactNav .numbers h4 {
+    font-size: 12px;
+  }
+}
+html body main .contacts .lastMenu {
+  width: 100%;
+  align-items: flex-start;
+}
+html body main .contacts .lastMenu a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .contacts .lastMenu a {
+    padding: 3px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .lastMenu a {
+    padding: 2px;
+  }
+  html body main .contacts .lastMenu a:nth-child(1), html body main .contacts .lastMenu a:nth-child(2) {
+    display: none;
+  }
+}
+html body main .contacts .lastMenu a span {
+  color: #A5A5A5;
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  html body main .contacts .lastMenu a span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  html body main .contacts .lastMenu a span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  html body main .contacts .lastMenu a span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .lastMenu a span {
+    font-size: 12px;
+  }
+}
+html body main .contacts .lastMenu a span:hover {
+  color: #e03232;
+}
+html body main .contacts .lastContact {
+  margin-top: 50px;
+}
+html body main .contacts .lastContact a {
+  margin: 10px 15px;
+  text-decoration: none;
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .lastContact a {
+    margin: 8px 10px;
+  }
+}
+html body main .contacts .lastContact a:hover .fa-vk {
+  color: #2d5881;
+}
+html body main .contacts .lastContact a:hover .fa-facebook-f {
+  color: #2438eb;
+}
+html body main .contacts .lastContact a:hover .fa-instagram {
+  color: #e22c81;
+}
+html body main .contacts .lastContact a .fa-vk, html body main .contacts .lastContact a .fa-facebook-f, html body main .contacts .lastContact a .fa-instagram {
+  font-size: 32px;
+  color: #504f4f;
+  transition: 0.3s;
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .lastContact a .fa-vk, html body main .contacts .lastContact a .fa-facebook-f, html body main .contacts .lastContact a .fa-instagram {
+    font-size: 20px;
+  }
+}
+html body main .contacts .lastContact a p {
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  color: black;
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  html body main .contacts .lastContact a p {
+    font-size: 16px;
+  }
+}
+html body main .fixed {
+  position: fixed;
+  bottom: 25px;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  z-index: 1000000;
+}
+html body main .fixed .up a .fa-arrow-alt-circle-up {
+  width: 100%;
+  height: 100%;
+  color: red;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=main.css.map */
